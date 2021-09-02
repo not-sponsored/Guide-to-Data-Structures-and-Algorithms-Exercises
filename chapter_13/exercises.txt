@@ -1,0 +1,15 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 13 - Quicksort 
+
+
+1. Function to return the greatest product of three numbers in an array located
+   in greatest_product.py
+
+2. Function to find the missing number out of a consecutive sequence of natural
+   in missing_number.py
+
+3. Three functions with O(N^2), O(NLogN), and O(1) complexities to find the
+   the greatest number in an array functions located in find_greatest.py 

@@ -1,0 +1,16 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 2 - Algorithm Efficiency 
+
+
+1. A linear search for 8 out of [2, 4, 6, 8, 10, 12, 13] will take 4 steps.
+
+2. A binary search for 8 out of the above list will take 1 step because 8 is
+   at the midpoint of the array.
+
+3. Taking log base 2 of 100,000 and rounding up, it should take at most 17
+   steps to perform a binary search on an array with 100,000 elements. We take
+   log base 2 because with each iteration we eliminate half of the possiblee
+   values. 

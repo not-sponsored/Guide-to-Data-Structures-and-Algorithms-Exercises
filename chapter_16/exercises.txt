@@ -1,0 +1,29 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 16 - Heaps 
+
+
+1. After inserting 11 into the heap it should look like the following:
+                 11
+       	     /        \
+          10             8
+        /    \         /   \
+      6        9     7       4
+    /   \    /   \
+   2     1  3     5
+
+2. If we delete the root node from the graph in the book (without 11), it
+   should look like:  
+                 9
+              /     \ 
+          6             8
+        /   \         /   \
+      3       5     7      4
+    /   \
+   2     1 
+
+3. Given the following numbers 55, 22, 34, 10, 2, 99, 68 if we inserted them
+   into a heap then popped them off into a new array it would be in this order
+   99, 68, 55, 34, 22, 10, 2  

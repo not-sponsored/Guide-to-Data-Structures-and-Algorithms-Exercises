@@ -1,0 +1,24 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 17 - Tries
+
+
+1. From the trie in the book, these are all the words in it: tag, tan, tank,
+   tap, today, total, we, well, went.
+
+2. trie to store the following: get, go, got, gotten, hall, ham, hammer, hill,
+   zebra
+                                        [ ]
+                           g/           h|           z\
+                         e/ o\         {a,i}          e|
+                        t|  {*,t}    {l,m} l\         b|
+                         *  {*,t}   {*,l,m} l|        r|
+                              e|        e|   *        a|
+                              n|        r|             *
+                               *         *
+3. Function to display all keys in a trie implemented in
+   all_keys_autocorrect_trie.py
+
+4. Function to autocorrect a typo implemented in all_keys_autocorrect_trie.py

@@ -1,0 +1,16 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 5 - Using Big O 
+
+
+1. The time complexity of 4N + 16 steps is O(N).
+
+2. The time complexity of 2N^2 is O(N^2).
+
+3. The time complexity of two separate traversals of an array is O(N). 
+
+4. The time complexity of a single traversal of an array is O(N).
+
+5. The time complexity of nested for loops is O(N^2).

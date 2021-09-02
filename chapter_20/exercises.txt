@@ -1,0 +1,24 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 20 - Optimize code with examples and techniques 
+
+
+1. Function to find intersection of two objects with players in O(N+M) time in 
+   both_sports.py   
+
+2. Function to find the missing integer from a consecutive sequence in O(N)
+   time in missing_integer.py
+
+3. Function to find largest profit from one buy and sell located in O(N) time
+   in greatest_profit.py
+
+4. Function to compute largest product from an array with both positive and
+   negatives numbers in O(N) time in greatest_product.py
+
+5. Function to sort temperatures within the range of 97.0 to 99.0 in O(N) time
+   located in body_temperature.py
+
+6. Function to return the longest consecutive sequence of integers in O(N) time
+   located in longest_sequence.py 

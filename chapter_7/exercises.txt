@@ -1,0 +1,22 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 7 - Algorithm Efficiency
+
+
+1. We loop through half of the array checking if the left value + right value
+   sums to 100, this is O(N) time complexity. 
+   
+2. Combining two sorted arrays together, we loop once through both. If we
+   imagine N as the length for both arrays, then the time complexity is O(N).
+
+3. This is the classic needle in the haystack problem. Because we must check
+   every character in the haystack and every position of the needle substring
+   for a valid search, the time complexity is O(N*M).
+
+4. Because we have nested three loops to find the largest product possible from
+   the array, the time complexity is O(N^3).
+
+5. We throw half the array away each iteration, so the time complexity should
+   be O(log(N)) 

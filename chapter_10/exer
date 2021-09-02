@@ -1,0 +1,21 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 10 - Introduction to Recursion 
+
+
+1. The base case from a recursive function that prints every other number is
+   when low > high.
+
+2. With a recursive factorial function, if we change the recursive call from
+   n-1 to n-2 and call with factorial(10) we will cause a stack overflow
+   because the base case checks if n == 1 which we will skip over because we
+   subtract two from n each call, so it will call factorial(2) then factorial(0)
+   skipping the base case and continuing until we get a stack overflow.
+
+3.
+in algos/sum_range.py
+
+4.
+in algos/pr_arr.py

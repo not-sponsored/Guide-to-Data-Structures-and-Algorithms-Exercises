@@ -1,0 +1,18 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 4 - Speeding Up With Big O 
+
+
+1. Order per N elements in a data structure:
+   N elements  O(N)  O(log N)  O(N^2) 
+      100      100      7      10000
+     2000      2000     11     4000000
+
+2. Because the algorithm is O(N^2), we take the square root of the 256 steps to
+   find the size of the array. The square root is 16 so the array is size 16.
+
+3. The code has a nested for loop, so the time complexity is N*N or O(N^2).
+
+4. Function with O(N) search for maximum number in linear_search_max_value.py

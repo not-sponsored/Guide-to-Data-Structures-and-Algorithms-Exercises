@@ -1,0 +1,25 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 11 - Coding Recursive 
+
+
+1. Recursive function to return the number of characters in an array is located
+   in count_characters_in_array.py
+
+2. Recursive function that returns all even numbers in a new array is located
+   in return_evens.py
+
+3. Recursive function that returns the Nth number in the triangle number
+   sequence (position + previous number in sequence) is located in 
+   triangular_numbers.py
+
+4. Recursive function that returns the first index of a string with x is
+   located in find_x_position.py  
+
+5. This is a well known problem called "unique paths." In unique_paths.py, a
+   recursive non-memoized function returns the number of shortest paths from a 
+   start position in the upper left of a grid to the finish position in the
+   lower right of the grid. A faster memoized implementation is included in
+   chapter_12/memoized_unique_paths.py

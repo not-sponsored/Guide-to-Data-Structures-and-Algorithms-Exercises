@@ -1,0 +1,17 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 14 - Linked List 
+
+
+1. Method to print out all elements in single_linked_list.py
+
+2. Method to print all elements in reverse order in double_linked_list.py
+
+3. Method to print out last element from the list in single_linked_list.py 
+
+4. Method to reverse nodes in place in single_linked_list.py 
+
+5. Method to delete a middle node with no knowledge of previous nodes in
+   middle_link.py

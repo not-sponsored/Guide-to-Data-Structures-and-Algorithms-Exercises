@@ -1,0 +1,23 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 18 - Graphs 
+
+
+1. From the e-commerce store's graph, if the user views vertex "nails" the
+   the edges connect "nails" to other vertices and recommends them. Here "nails"
+   has edges to hammer, pins, needles, and nail polish, so these products will
+   be recommended.
+
+2. The alphabet graph should traverse in the following order assuming we visit
+   the node that is earliest in the alphabet with a depth first search:
+   A -> B -> E -> J -> F -> O -> C -> G -> K -> D -> H -> L -> M -> I -> N -> P
+
+3. The alphabet graph should traverse in the following order assuming we visit
+   the node that is earliest in the alphabet with a breadth first search:
+   A -> B -> C -> D -> E -> F -> G -> H -> I -> J -> K -> L -> M -> N -> O -> P
+
+4. Breadth first search implemented in bfs_unweighted_shortest_path.py 
+
+5. Unweighted shortest path implemented in bfs_unweighted_shortest_path.py 

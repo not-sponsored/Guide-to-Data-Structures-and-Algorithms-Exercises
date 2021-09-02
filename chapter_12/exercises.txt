@@ -1,0 +1,14 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 12 - Dynamic Programming
+
+
+1. Optimized recursive function to sum up until 100 (inclusive) in
+   add_until_100.py
+
+2. Memoized recursive function to return Nth number in Golomb sequence in 
+   golomb_sequence.py
+
+3. Memoized recusive "unique paths" solution in memoized_unique_paths.py 

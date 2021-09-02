@@ -1,0 +1,8 @@
+# ignore template python file
+t.py
+
+# ignore template exercises format
+exr
+
+# ignore pycache
+*__pycache__

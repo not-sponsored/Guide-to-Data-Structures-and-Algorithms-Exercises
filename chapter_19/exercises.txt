@@ -1,0 +1,25 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 19 - Space Complexity 
+
+
+1. The function creates a new array to store approximately N^2 values, so thus,    it has a space complexity of O(N^2).
+
+2. Because we create a new array to store about N values, the space complexity
+   is O(N).
+
+3. Function to reverse an array in O(1) space is in constant_space_reverse.py 
+
+4. Context: Version #1 uses a new array with a for loop to store N values
+            Version #2 runs a for loop and modifies the passed array in place 
+            Version #3 uses recursion and calls itself N times
+
+   Filled Table:
+
+   Version      Time Complexity     Space Complexity
+
+   Version #1   O(N)                O(N)
+   Version #2   O(N)                O(1)
+   Version #3   O(N)                O(N)

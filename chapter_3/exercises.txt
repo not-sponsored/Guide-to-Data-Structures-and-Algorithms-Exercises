@@ -1,0 +1,20 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 3 - O() Notation 
+
+
+1. Ternary statement runs in O(1) because the input size does not affect the
+   evaluation. 
+
+2. Because we traverse an array, the function runs in O(N) because we visit
+   each element once. 
+
+3. Because we run log base 2 times for any given N, the order is O(log(N)). 
+
+4. Because we traverse an array, the function runs in O(N) because we visit
+   each element once. 
+
+5. The median function reads and returns an exact address regardless of input
+   size, so the order is O(1).

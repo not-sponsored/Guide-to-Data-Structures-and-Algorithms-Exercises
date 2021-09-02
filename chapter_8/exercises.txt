@@ -1,0 +1,19 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 8 - Hash Tables 
+
+
+1. The function to calculate the intersection of two arrays is located in
+   intersection_of_arrays.py 
+
+2. The function to return the first duplicate string in an array of strings
+   is located in find_duplicate_str.py 
+
+3. The function to find the missing letter from a string that contains most of
+   the alphabet is located in missing_char.py 
+
+4. The function to find the first non-duplicate character in a string is
+   located in first_non_duplicate_str.py  
+

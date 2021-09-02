@@ -1,0 +1,50 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 1 - Data Structures Efficiency 
+
+
+1. Context: an array with 100 elements, how many steps would the following take?
+
+a) Reading should take 1 step because we read a memory address.
+   
+b) Searching for a non-existent value should take 100 steps because we traverse 
+   the entire list looking for the non-existent value.
+
+c) Insertion at the beginning should take 101 steps because there is 1 step for
+   the insertion then 100 shifts to the right for the other elements.
+
+d) Insertion at the end should take 1 step because we store the value at the
+   last address + a memory offset.
+
+e) Deletion at the beginning should take 100 steps because there is 1 step
+   for the deletion then 99 shifts to the left for the remaining elements. 
+
+f) Deletion at the end should take 1 step because we delete the last address.
+
+
+2. Context: a set with 100 elements, how many steps would the following take?
+
+a) Reading should take 1 step because we read from a memory address.
+
+b) Searching for a non-existent value should take 100 steps because we traverse 
+   the entire list looking for the non-existent value.
+
+c) Insertion at the beginning should take 201 steps because there is 100 steps
+   to traverse the set to look for a duplicate, then 1 step for the insertion,
+   finally 100 shifts to the right for the other elements.
+
+d) Insertion at the end should take 101 steps because we traverse the set
+   looking for a duplicate before inserting at the last address + an offset. 
+
+e) Deletion at the beginning should take 100 steps because there is 1 step
+   for the deletion then 99 shifts to the left for the remaining elements. 
+
+f) Deletion at the end should take 1 step because we delete the last address.
+
+
+3. To check for all 'apple' strings in a list we take N steps because we check
+   every element in the list for 'apple'. This is valid under the assumption
+   that the list is unsorted. 
+

@@ -1,0 +1,20 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 6 - Big O Best Case Worst Case 
+
+
+1. The time complexity of a 3N^2 + 2N + 1 algorithm is O(N^2).
+
+2. The time complexity of a N + log(N) algorithm is O(N). 
+
+3. Using nested for loops to check whether a pair of numbers in an array sum to
+   ten, the best case is a sum with the first two numbers or 2 steps; the
+   average case is somewhere in the middle or N^2 / 2 steps; and the worst case    is a traversal of the entire array with no pairs summing to ten or N^2, which
+   in order notation is O(N^2). 
+
+4. The time complexity is O(N) because we loop through the entire array even
+   if we have already found the X character we are looking for. The improved
+   version for average and best case scenarios is in f
+improvements in algos/findx.py

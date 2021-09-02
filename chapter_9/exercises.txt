@@ -1,0 +1,17 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 9 - Stacks and Queues 
+
+
+1. For a call center hold system, a queue would make sense to allow the 
+   earliest callers get help first before later callers. 
+
+2. The stack is 1, 2, 3, 4, 5, 6 (top of stack is 6). If we popped two items,
+   the popped items would be 6, 5.
+
+3. The queue is 1, 2, 3, 4, 5, 6 (front of queue is 1). If we dequeued two
+   items, the result would be 1, 2. 
+
+4. The function to reverse a string with a stack is located in reverse_str.py

@@ -1,0 +1,33 @@
+# Exercises from: A Common-Sense Guide to Data Structures and Algorithms
+# Level Up Your Core Programming Skills
+# by Jay Wengrow and edited by Brian MacDonald
+#
+# chapter 15 - Binary Trees 
+
+
+1. How a binary tree looks like after inserting [1, 5, 9, 2, 4, 10, 6, 3, 8]:
+   
+   1
+     \
+        5
+     /     \
+   2         9
+     \     /   \
+      4   6     10
+     /     \ 
+   3         8
+
+2. With 1000 elements in a binary tree, search is log(N) so log(1000) is
+   roughly 10. Thus at most the search should take 10 steps.
+
+3. Function to find the greatest value in a binary tree is in
+   binary_search_tree.py
+
+4. The binary tree with book titles printed in a preorder traversal will appear
+   in the following order "Moby Dick", "Great Expectations",
+   "Alice in Wonderland", "Lord of the Flies", "Robinson Crusoe",
+   "Pride and Prejudice", and "The Odessy".
+
+5. The same binary tree with titles print in a postorder traversal will appear
+   as "Alice in Wonderland", "Lord of the Flies", "Great Expectations",
+   "Pride and Prejudice", "The Odessy", "Robinson Crusoe", and "Moby Dick". 
